@@ -1,0 +1,53 @@
+-- phpMyAdmin SQL Dump
+-- version 2.6.1
+-- http://www.phpmyadmin.net
+-- 
+-- Serveur: localhost
+-- Généré le : Mardi 26 Juin 2007 à 07:48
+-- Version du serveur: 4.1.9
+-- Version de PHP: 4.3.10
+-- 
+-- Base de données: `sondage`
+-- 
+
+-- --------------------------------------------------------
+
+-- 
+-- Structure de la table `reponse`
+-- 
+
+CREATE TABLE `reponse` (
+  `id` smallint(6) NOT NULL auto_increment,
+  `pseudo` text NOT NULL,
+  `mdp` text NOT NULL,
+  `q1` text NOT NULL,
+  `q2` text NOT NULL,
+  `q31` text NOT NULL,
+  `q32` text NOT NULL,
+  `q33` text NOT NULL,
+  `q34` text NOT NULL,
+  `q4` text NOT NULL,
+  `q5` text NOT NULL,
+  `q6` text NOT NULL,
+  `q7` text NOT NULL,
+  `q8` text NOT NULL,
+  `q9` text NOT NULL,
+  `q101` text NOT NULL,
+  `q102` text NOT NULL,
+  `q103` text NOT NULL,
+  `q104` text NOT NULL,
+  `q105` text NOT NULL,
+  `q106` text NOT NULL,
+  `q11` text NOT NULL,
+  `q12` text NOT NULL,
+  KEY `id` (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=9 ;
+
+-- 
+-- Contenu de la table `reponse`
+-- 
+
+INSERT INTO `reponse` VALUES (7, 'acer', 'cccc', 'oui', 'non', '', '', '', '', 'oui', 'non', 'oui', 'non', 'oui', 'trajet', '', '', '', '', '', '', 'non', 'femme');
+INSERT INTO `reponse` VALUES (6, 'tonaï', 'chouchou', 'oui', 'non', 'on', 'on', 'on', 'on', 'oui', 'non', 'oui', 'non', 'oui', 'trajet_regulier', 'on', 'on', 'on', 'on', 'on', 'coucou', 'oui', 'femme');
+INSERT INTO `reponse` VALUES (5, 'hello', 'hello', 'coucou', 'oui', '', '', '', '', 'oui', 'oui', 'oui', 'oui', 'oui', 'oui', 'on', '', '', '', '', '', 'oui', 'homme');
+        

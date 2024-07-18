@@ -1,0 +1,51 @@
+-- phpMyAdmin SQL Dump
+-- version 2.6.1
+-- http://www.phpmyadmin.net
+-- 
+-- Serveur: localhost
+-- Généré le : Dimanche 20 Janvier 2008 à 21:08
+-- Version du serveur: 4.1.9
+-- Version de PHP: 4.3.10
+-- 
+-- Base de données: `sondage`
+-- 
+
+-- --------------------------------------------------------
+
+-- 
+-- Structure de la table `shoutbox`
+-- 
+
+CREATE TABLE `shoutbox` (
+  `id` int(11) NOT NULL auto_increment,
+  `pseudo` varchar(50) NOT NULL default '',
+  `titre` varchar(200) NOT NULL default '',
+  `message` text NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=21 ;
+
+-- 
+-- Contenu de la table `shoutbox`
+-- 
+
+INSERT INTO `shoutbox` VALUES (1, 'tonaï', 'test de message de shoutbox', 'coucou!');
+INSERT INTO `shoutbox` VALUES (2, 'tonaï', 'hello', 'coucou');
+INSERT INTO `shoutbox` VALUES (3, 'tonaï', 'dernier test', 'normalement ça marche...');
+INSERT INTO `shoutbox` VALUES (4, 'tonaï', 'dernier test', 'normalement ça marche...');
+INSERT INTO `shoutbox` VALUES (5, 'tonaï', 'ceci est un titre à rallonge mais sans apostrophe', 'test\r\ntest\r\ntest');
+INSERT INTO `shoutbox` VALUES (6, 'tonaï', 'retest, avec une virgule', 'coucou');
+INSERT INTO `shoutbox` VALUES (7, 'tonaï', 'encore un message', 'et oui encore un message de plus.');
+INSERT INTO `shoutbox` VALUES (8, 'tonaï', 'toujours un message', 'et oui encore un message de plus.');
+INSERT INTO `shoutbox` VALUES (9, 'tonaï', 'toujours encore un message', 'et oui encore un message de plus...');
+INSERT INTO `shoutbox` VALUES (10, 'tonaï', 'et encore un autre message', 'et oui encore un message de plus...\r\nça devient lassant...');
+INSERT INTO `shoutbox` VALUES (11, 'tonaï', 'et encore un autre message', 'et oui encore un message de plus...\r\nça devient lassant...');
+INSERT INTO `shoutbox` VALUES (12, 'tonaï', 'ceci est un message avec un titre extrèmement long, mais cest pour un test donc cest normal.', 'voila voila quoi');
+INSERT INTO `shoutbox` VALUES (13, 'tonaï', 'message encore plus loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong!', 'Toujours plus haut.\r\nToujours plus loin.');
+INSERT INTO `shoutbox` VALUES (14, 'tonaï', 'message encore plus loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong!', 'Toujours plus haut.\r\nToujours plus loin.');
+INSERT INTO `shoutbox` VALUES (15, 'tonaï', 'message encore plus long mais avec des espace sinon ça ne marche pas malheureusement... donc du coup je suis obligé de me tapé tout ce text à écrire.', 'et ouai...');
+INSERT INTO `shoutbox` VALUES (16, 'tonaï', 'message encore plus long mais avec des espace sinon ça ne marche pas malheureusement... donc du coup je suis obligé de me tapé tout ce text à écrire.', 'et ouai...');
+INSERT INTO `shoutbox` VALUES (17, 'tonaï', 'message encore plus long mais avec des espace sinon ça ne marche pas malheureusement... donc du coup je suis obligé de me tapé tout ce text à écrire.', 'et ouai...');
+INSERT INTO `shoutbox` VALUES (18, 'tonaï', 'message encore plus long mais avec des espace sinon ça ne marche pas malheureusement... donc du coup je suis obligé de me tapé tout ce text à écrire.', 'et ouai...');
+INSERT INTO `shoutbox` VALUES (19, 'tonaï', 'message encore plus long mais avec des espace sinon ça ne marche pas malheureusement... donc du coup je suis obligé de me tapé tout ce text à écrire.', 'et ouai...');
+INSERT INTO `shoutbox` VALUES (20, 'tonaï', 'message encore plus long mais avec des espace sinon ça ne marche pas malheureusement... donc du coup je suis obligé de me tapé tout ce text à écrire.', 'et ouai...');
+        

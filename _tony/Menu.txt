@@ -1,0 +1,34 @@
+0. Espace perso
+	Préférences
+	Profil
+		* Possède une voiture
+		* Fumeur ou non
+		* Coordonnées
+	Gérer groupes (admin....)
+	Messages privés
+	Shoutbox (chat privé ?)
+
+1. Accueil
+
+2. Trajets
+	Proposer un trajet
+	Demander un trajet
+	Voir la carte
+
+3. Communauté
+
+	Gérer mes contacts
+	Forum
+	Liste des utilisateurs, indice de fréquentation (membre actif ou non) + lien pour MP
+
+4. Pratique	
+	Charte
+	Enquête
+	Enjeux du covoiturage
+	Manuel d'utilisation
+	FAQ
+	
+5. Equipe
+	Trombi
+	Partenaire
+	Explication du projet

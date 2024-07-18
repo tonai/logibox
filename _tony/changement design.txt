@@ -1,0 +1,50 @@
+/!\REMPACER TOUS LES JPG PAR DES PNG/!\
+
+body {
+background-image:url('fond.jpg');
+width:1000px;
+height:750px;
+color:white;
+margin:auto;}
+
+* {
+margin:0px;
+padding:0px;}
+
+h1, h2 {
+text-align:center;
+margin-bottom:10px;}
+
+p {
+text-align: justify;}
+
+#float {
+float:left;
+margin-right:5px;}
+
+hr {
+clear:both;
+margin-top:5px;}
+
+#gauche {
+width:190px;
+height:516px;
+background-image:url("bord.png");
+background-repeat:repeat-y;
+padding-left:20px;
+padding-right:20px;
+font-size:0.8em;
+text-align:center;}
+
+#erreur {
+color:red;}
+
+li,dd {
+margin-left:40px;}
+
+#message_shoutbox {
+margin-left:0px;
+text-align: justify;}
+
+#page {
+text-align:center;}

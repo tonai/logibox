@@ -1,0 +1,18 @@
+<p>
+	Vous ètes donc actuellement sur la première page du portail "LOGIBOX". D'ici vous pouvez accéder à tous les différents menus et modules du portail.
+</p>
+<p>
+	Sur la partie droite du site vous trouverez tous d'abord la zone vous permettant de vous enregistrez. Si vous ne possèdez pas de compte, vous pouvez vous en créez un en cliquant sur <a href="#">ce lien</a>.<br/>
+	Une fois connecté, cette zone vous permettra d'accèder à votre compte et de consulter vos messages personnels.<br/>
+	Juste en dessous se trouve la "Shoutbox" permettant de proposer et de demander des covoiturages "express" de manière rapide et efficace, puisque les messages s'affiche directement sur la page principale.
+</p>
+<p>
+	Enfin sur le dessus se trouve les menus permettant de naviguer à travers le site.
+</p>
+<ul>
+	<li>"Accueil" vous permettra de revenir sur cette page.</li>
+	<li>"Carte" vous redigera vers une page, d'où vous pourrez visualiser directement où se situe en temps réel vos contacts.</li>
+	<li>"Communauté" est la page où vous trouverez beaucoup d'informations à propos des membres et où vous pourrez les inviter dans votre groupe par exemple.</li>
+	<li>"Pratique" vous proposera un plan détaillé du site, des "Foires Aux Questions", mais aussi la charte du site.</li>
+	<li>Enfin "Equipe" vous donnera des renseignements sur les auteurs du projet, le partenaire...etc.</li>
+</ul>

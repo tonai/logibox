@@ -1,0 +1,301 @@
+/*
+*   DEFAUT ---------------------------------------------------------------------
+*/
+
+* {
+    margin:0px;
+    padding:0px;
+    color:white;
+}
+
+a {
+    color:#4f8cc4;
+	text-decoration:none;
+}
+
+a:hover {
+    color:#8db4d9;
+	text-decoration:underline;
+}
+
+a:focus, a:active, input:focus, input:active {
+    outline:none;
+}
+
+input {
+    color:black;
+}
+
+input:focus, textarea:focus
+{
+	background-color: #d2dae1;
+    color:black;
+}
+
+p {
+	font-size:14px;
+	margin-top: 20px;
+    text-align: justify;
+}
+
+h1, h2 {
+	text-align:center;
+	margin-bottom:10px;
+}
+
+ol, dd {
+	margin-left:40px;
+}
+
+fieldset {
+	padding:20px;
+	background-color:#485b71;
+	border:solid black 5px;
+	-moz-border-radius: 20px;
+}
+
+	legend {
+		color:#e2e7ec;
+		font-size:1.5em;
+	}
+
+hr {
+	clear:both;
+	margin-top:10px;
+}
+
+#float {
+	float:left;
+	margin-right:5px;
+}
+
+.bold {
+    font-weight:bold;
+}
+
+#erreur {
+	color:red;
+}
+	
+/*
+*   LAYOUT GENERAL -------------------------------------------------------------
+*/
+
+body {
+    background-image:url('img/fond.jpg');
+}
+
+#global {
+    width:1000px;
+    margin:auto;
+}
+
+#header {
+    height:215px;
+    width:1000px;
+    margin-top:20px;
+    margin-bottom:0px;
+    background-image:url("img/menu.png");
+}
+
+#leftPanel {
+    width:230px;
+    float:left;
+}
+
+    .panelContent {
+        height:516px;
+        background:url("img/bord.png") repeat-y;
+        padding:0px 20px;
+        font-size:11px;
+        text-align:center;
+    }
+
+    .panelFoot {
+        height:19px;
+        background-image:url("img/bas.png");
+    }
+
+#mainPage {
+    width:730px;
+    height:570px;
+    margin-top:-60px;
+    margin-left:15px;
+    float:left;
+    padding: 10px;
+    background-color:#26354a;
+    border:solid 1px white;
+    -moz-border-radius: 10px;
+    overflow: auto;
+}
+
+/*
+*   Menu principal -------------------------------------------------------------
+*/
+
+#menu {
+	position:relative;
+	top:80px;
+}
+
+	#menu > li{
+			float:right;
+			list-style:none;
+	}
+	
+	#menu > li > a {
+        display:block;
+		height:48px;
+	}
+	
+	#menu li ul {
+			display:none;
+			list-style:none;
+			border-left: solid black 1px;
+			border-right: solid black 1px;
+			border-bottom: solid black 1px;
+	}
+	
+		#menu li:hover ul {
+			color:white;
+			display:block;
+		}
+	
+		#menu li ul li {
+			font-weight:bold;
+			font-size:12px;
+			padding:5px 5px;
+			background-color:#d7dee4;
+		}
+		
+			#menu li ul li:hover{
+				color:#4565b8;
+				background-color:white;
+			}
+		
+		#accueil {
+			width:176px;
+			height:48px;
+		}
+			
+			#accueil:hover{
+				background-image:url('img/menu.png');
+				background-position:-155px -215px;
+			}
+		
+		#trajets {
+			width:128px;
+			height:48px;
+		}
+		
+			#trajets:hover{
+				background-image:url('img/menu.png');
+				background-position:-331px -215px;
+			}
+			
+			#trajets ul li{
+				min-width:118px;
+			}
+		
+		#communaute {
+			width:240px;
+			height:48px;
+		}
+		
+			#communaute:hover{
+				background-image:url('img/menu.png');
+				background-position:-459px -215px;
+			}
+		
+			#communaute ul li{
+				min-width:230px;
+			}
+		
+		#pratique {
+			width:159px;
+			height:48px;
+		}
+		
+			#pratique:hover{
+				background-image:url('img/menu.png');
+				background-position:-699px -215px;
+			}
+		
+			#pratique ul li{
+				min-width:149px;
+			}
+		
+		#equipe {
+			width:131px;
+			height:48px;
+			margin-right:11px;
+		}
+
+			#equipe:hover{
+				background-image:url('img/menu.png');
+				background-position:-858px -215px;
+			}
+		
+			#equipe ul li{
+				min-width:121px;
+			}
+
+/*
+*   MODULES --------------------------------------------------------------------
+*/
+
+#message_shoutbox {
+	margin-left:0px;
+	text-align: justify;
+}
+
+    /*
+    *   login ------------------------------------------------------------------
+    */
+
+    #login{
+        position:relative;
+        top:35px;
+        left:15px;
+        width:200px;
+        height:110px;
+        clear:both;
+    }
+
+		#login #ok {
+			border:none;
+			width:40px;
+			height:40px;
+			background-image:url("ok.jpg");
+			font-size:0em;
+			position:relative;
+			top:-31px;
+			left:155px;
+		}
+
+			#login #ok:hover {
+			background-position:0px -40px;
+		}
+
+    /**
+     *   googleMap -------------------------------------------------------------
+     */
+     
+    #map {
+        height:100%;
+        width:100%;
+    }
+
+
+/*#deco {
+border:none;
+width:40px;
+height:40px;
+background-image:url("ok.jpg");
+font-size:0em;
+position:relative;
+top:25px;
+left:155px;}
+
+#deco:hover {
+background-position:0px -40px;}*/
